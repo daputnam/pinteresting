@@ -23,7 +23,9 @@ gem 'devise', '~> 3.5.2'
 
 gem 'paperclip', github: 'thoughtbot/paperclip'
 
-gem 'aws-sdk', '<2.0'
+gem 'aws-sdk-v1'
+
+gem 'aws-sdk', '~> 2'
 
 group :development, :test do
   gem 'sqlite3'
