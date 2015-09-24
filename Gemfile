@@ -25,7 +25,7 @@ gem 'paperclip', github: 'thoughtbot/paperclip'
 
 gem 'aws-sdk-v1'
 
-gem 'aws-sdk', '~> 2'
+gem 'aws-sdk', '<2.0'
 
 group :development, :test do
   gem 'sqlite3'
